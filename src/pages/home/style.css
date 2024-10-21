@@ -1,0 +1,86 @@
+body {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #0532ad, #0483d8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+form button {
+    border-radius: 30px;
+    background-color: #04be1d;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #1ce41c;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card span {
+    font-size: 16px;
+    color: #333;
+}
+
+.card button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.card button img {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card button:hover img {
+    transform: scale(1.1);
+}
